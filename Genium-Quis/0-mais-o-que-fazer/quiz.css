@@ -1,0 +1,66 @@
+@import url('https://fonts.cdnfonts.com/css/merchant-copy-doublesize');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;*/
+    /*font-family: 'Merchant Copy Doublesize', sans-serif;;*/
+}
+
+                
+/*
+html {
+    height: 100%;
+}
+*/
+img{
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+}
+
+h1, h2{
+    margin: 5px 0;
+}
+
+.parede-invisivel{
+    height: 1px;
+}
+
+body {
+    background-color: #535353;
+    height: 100%;
+}
+
+main {
+    background-color: #c6c6c6;
+    width: 940px;
+    /*height: 100%;*/
+    margin: 19px auto 0 auto;
+}
+
+.conteudo {
+    background-color: #eeeeee;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    font-size: 17px;
+}
+
+.opcao {
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    background-color: #c6c6c6;
+    margin: 10px 30px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 30px;
+    border: 1px solid black;
+    padding: 3% 0 3% 0;
+}
+
+.opcao:hover {
+    cursor: pointer;
+    background-color: #eeeeee;
+}
