@@ -1,4 +1,4 @@
-let caminhos = ["3-sabo-muito", "3-mentira", "4", "link"];
+let caminhos = ["2-sabe-muito", "3", "2-errou", "2-errou"];
 window.onload = () => 
 {
     let opcao = document.getElementsByClassName("opcao");
@@ -7,7 +7,6 @@ window.onload = () =>
         opcao[op].onclick = () => {window.location.replace("https://israel-henrique.github.io/66-perguntas-dos-desafios/Genium-Quis/" + 
         `${caminhos[op]}` + "/genium.html")}
     }
-    opcao[3].onclick = () => {window.location.replace("https://www.youtube.com/watch?v=Oxs29Dbtdc0");}
 
     document.getElementsByClassName("debug")[0].onclick = () => {debug();}
 }

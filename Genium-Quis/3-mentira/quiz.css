@@ -25,12 +25,12 @@ h1, h2{
     color: white
 }
 
-.parede-invisivel{
-    height: 1px;
-}
-
 p {
     color: white;
+}
+
+.parede-invisivel{
+    height: 1px;
 }
 
 img{
