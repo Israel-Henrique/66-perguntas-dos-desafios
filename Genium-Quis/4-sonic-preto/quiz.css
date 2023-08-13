@@ -1,14 +1,4 @@
 @import url('https://fonts.cdnfonts.com/css/merchant-copy-doublesize');
-@font-face {
-    font-family: "NiseSegaSonic";
-    src: url("./recursos/NiseSegaSonic.TTF");
-}
-
-@font-face {
-    font-family: "Gaslight Regular";
-    src: url("./recursos/gaslight.ttf");
-}
-
 *{
     margin: 0;
     padding: 0;
@@ -26,12 +16,6 @@ html {
 
 h1, h2{
     margin: 5px 0;
-    font-family: "Gaslight Regular";
-    font-weight: normal;
-}
-
-p{
-    font-family: "NiseSegaSonic";
 }
 
 .parede-invisivel{
@@ -39,9 +23,9 @@ p{
 }
 
 img{
-    max-width: 35%;
+    max-width: 100%;
     max-height: 100%;
-    min-width: 35%;
+    min-width: 100%;
 }
 
 body {
@@ -74,7 +58,6 @@ main {
     border-bottom-left-radius: 30px;
     border: 1px solid black;
     padding: 3% 0 3% 0;
-    font-family: "NiseSegaSonic";
 }
 
 .opcao:hover {
