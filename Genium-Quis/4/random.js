@@ -18,6 +18,7 @@ window.onload = () =>
         {
             opcao[op].style.cursor = "default";
             opcao[op].style.backgroundColor = "#c6c6c6";
+            opcao[op].onclick = () => {console.log("Não funfa mais");}
         }
 
         opcao[0].style.backgroundColor = "#eeeeee";
