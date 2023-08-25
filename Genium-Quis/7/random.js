@@ -8,6 +8,8 @@ window.onload = () =>
         `${caminhos[op]}` + "/genium.html")}
     }
 
+    opcao[2].onclick = () => {window.location.href = "https://israel-henrique.github.io/66-perguntas-dos-desafios/Genium-Quis/" + 
+    `${caminhos[op]}` + "/genium.html"}
     document.getElementsByClassName("debug")[0].onclick = () => {debug();}
 }
 
